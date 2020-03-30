@@ -1,0 +1,555 @@
+@font-face {
+  font-family: "LatoRegular";
+  src: url("../fonts/LatoRegular/LatoRegular.eot");
+  src: url("../fonts/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/LatoRegular/LatoRegular.woff") format("woff"),
+  url("../fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/LatoBold/LatoBold.eot");
+  src: url("../fonts/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/LatoBold/LatoBold.woff") format("woff"),
+  url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoItalic";
+  src: url("../fonts/LatoItalic/LatoItalic.eot");
+  src: url("../fonts/LatoItalic/LatoItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/LatoItalic/LatoItalic.woff") format("woff"),
+  url("../fonts/LatoItalic/LatoItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoLight";
+  src: url("../fonts/LatoLight/LatoLight.eot");
+  src: url("../fonts/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/LatoLight/LatoLight.woff") format("woff"),
+  url("../fonts/LatoLight/LatoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoBoldItalic";
+  src: url("../fonts/LatoBoldItalic/LatoBoldItalic.eot");
+  src: url("../fonts/LatoBoldItalic/LatoBoldItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/LatoBoldItalic/LatoBoldItalic.woff") format("woff"),
+  url("../fonts/LatoBoldItalic/LatoBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoLightItalic";
+  src: url("../fonts/LatoLightItalic/LatoLightItalic.eot");
+  src: url("../fonts/LatoLightItalic/LatoLightItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/LatoLightItalic/LatoLightItalic.woff") format("woff"),
+  url("../fonts/LatoLightItalic/LatoLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  --basis-length: 5px;
+  --basis-font-size: 18px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+body, a, input {
+  font-family: "LatoRegular";
+  font-size: var(--basis-font-size);
+  font-weight: 400;
+  text-decoration: none;
+  color: #848789;
+}
+
+.header-main {
+  background: url(../images/background-image-header.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: calc(var(--basis-length) * 7);
+  padding-bottom: calc(var(--basis-length) * 136);
+  width: 100%;
+}
+
+.header-main-a {
+  color: #4d4959;
+  font-size: 0.722em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  
+}
+
+ .header-main-a-1,
+ .header-main-a-3 {
+  padding-right: calc(var(--basis-length) * 20);
+}
+
+.logo-main {
+  width: calc(var(--basis-length) * 18);
+  height: calc(var(--basis-length) * 17);
+  margin: 0 calc(var(--basis-length) * 12);
+}
+
+.logo-about-us {
+  width: calc(var(--basis-length) * 10);
+  height: calc(var(--basis-length) * 8);
+  margin-bottom: calc(var(--basis-length) * 7);
+  margin-top: 0;
+}
+.about-us {
+  background-color: #f7f7f7;
+  padding: calc(var(--basis-length) * 24) 0;
+}
+
+.h1-main {
+  color: #353738;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: calc(var(--basis-length) * 7);
+  margin-top: 0;
+  text-align: center;
+  font-size: 1em;
+}
+
+.about-us-p {
+  line-height: 1.8;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.work-bike-main-bike-1 {
+  background: url(../images/bike-1-work.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.work-bike-main-bike-2 {
+  background: url(../images/bike-2-work.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.work-bike-main-bike-3 {
+  background: url(../images/bike-3-work.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.work-bike-main-bike-4 {
+  background: url(../images/bike-4-work.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.work-bike-main-5 {
+  background: url(../images/bike-5-work.jpg) no-repeat center;
+  background-size: cover;
+}
+.work-bike-main-bike-6 {
+  background: url(../images/bike-6-work.jpg) no-repeat center;
+  background-size: cover;
+}
+.work-bike-main-bike-7 {
+  background: url(../images/bike-7-work.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.logo-work-bike-1 {
+  width: calc(var(--basis-length) * 22)
+}
+
+.logo-work-bike-2 {
+  width: calc(var(--basis-length) * 32)
+}
+
+.logo-work-bike-3 {
+  width: calc(var(--basis-length) * 40);
+}
+
+.work-bike-text {
+  padding: calc(var(--basis-length) * 11) 0; 
+}
+
+.work-p {
+  line-height: 1.8;
+  font-size: 0.889em;
+  text-align: justify;  
+}
+
+.social-network {
+  background-color: #f7f7f7;
+}
+
+.social-network-logo {
+  width: calc(var(--basis-length) * 7);
+  margin: 0 auto calc(var(--basis-length) * 13);
+}
+
+.h1-social-media {
+  color: #353738;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 calc(var(--basis-length) * 2) 0 0;
+  font-size: 1em;
+}
+
+.h2-social-media {
+  font-family: "LatoLight";
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+.social-media-p {
+  font-size: 1.333em;
+  line-height: 1.5;
+  margin: calc(var(--basis-length) * 1) 0 0 0;
+  text-align: center;
+}
+
+.social-network {
+  padding-bottom: calc(var(--basis-length) * 12);
+}
+
+.social-network-container {
+  padding: calc(var(--basis-length) * 18) 0;
+}
+
+.m-b-27 {
+  margin-bottom: calc(var(--basis-length) * 5);
+}
+
+.radio-button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none; 
+  margin-right: calc(var(--basis-length) * 3);
+}
+
+.radio-button:last-child {
+  margin-right: 0;
+}
+
+.radio-button::before {
+  position: absolute;
+  content: '';
+  width: calc(var(--basis-length) * 2);
+  height: calc(var(--basis-length) * 2);
+  border-radius: 50%;
+  border: 1px solid #c8c8c8;
+  
+}
+
+.radio-button:checked::after {
+  position: absolute;
+  content: '';
+  width: calc(var(--basis-length) * 2);
+  height: calc(var(--basis-length) * 2);
+  border-radius: 50%;
+  border: 1px solid #c8c8c8;
+  background-color: #a9afb3;;
+  visibility: visible;
+}
+
+.shop-button-container {
+  background-color: #282f35;
+  padding: calc(var(--basis-length) * 15) 0;
+  text-align: center;
+}
+
+.shop-button {
+  color: #ffffff;
+  font-size: 0.778em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #282f35;
+  padding: calc(var(--basis-length) * 4) calc(var(--basis-length) * 11);
+  cursor: pointer;
+}
+
+.good-1 {
+  background: url(../images/bike-1-shop.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.good-2 {
+  background: url(../images/bike-2-shop.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.good-3 {
+  background: url(../images/bike-3-shop.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.good-4 {
+  background: url(../images/bike-4-shop.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.good-5 {
+  background: url(../images/bike-5-shop.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.good-6 {
+  background: url(../images/bike-6-shop.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.good-7 {
+  background: url(../images/bike-7-shop.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.good-8 {
+  background: url(../images/bike-2-shop.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.good-8::after{
+  background: rgb(100, 194, 158, 0.45);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.shop-buy {
+  position: relative;
+  z-index: 1;
+  top: 40%;
+}
+
+.logo-shop {
+  width:calc(var(--basis-length) * 10);
+  margin-bottom: calc(var(--basis-length) * 3);
+}
+
+.shop-buy-p {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+
+.footer {
+  background-color: #f7f7f7;
+  padding: calc(var(--basis-length) * 20) 0;
+}
+
+.footer-content {
+  margin: 0 auto;
+}
+
+.footer-h2 {
+  font-family: "LatoBold";
+  font-size: 0.889em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.footer-p {
+  font-family: "LatoItalic";
+  font-size: 0.778em;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.footer-a {
+  margin-right: calc(var(--basis-length) * 3);
+}
+
+.footer-a:last-child {
+  margin-right: 0;
+}
+
+.footer-a-logo {
+  width: calc(var(--basis-length) * 7);
+}
+
+.mailing {
+  padding: calc(var(--basis-length) * 22) 0;
+}
+
+.mail-form {
+  padding: calc(var(--basis-length) * 3) calc(var(--basis-length) * 45) calc(var(--basis-length) * 3) calc(var(--basis-length) * 3);
+  border: 1px solid #929292;
+  line-height: 1.2;
+}
+
+.mail-form::-webkit-input-placeholder {
+  color: #929292;
+  font-size: 1.111em;
+}
+
+.mail-form::-moz-placeholder {
+  color: #929292;
+  font-size: 1.111em;
+}
+
+.mail-form:-moz-placeholder {
+  color: #929292;
+  font-size: 1.111em;
+}
+
+.mail-form:-ms-input-placeholder {
+  color: #929292;
+  font-size: 1.111em;
+}
+
+.form-button {
+  background-color: #64c29e;
+  border: 1px #64c29e solid;
+  color: #ffffff;
+  font-size: 1.111em;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: uppercase;
+  padding: calc(var(--basis-length) * 3) calc(var(--basis-length) * 11);
+  cursor: pointer;
+}
+
+.margin-bottom-35 {
+  margin-bottom: calc(var(--basis-length) * 7);
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.width-66 {
+  width: 66%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-34 {
+  width: 34%;
+}
+
+.width-32 {
+  width: 32%;
+}
+
+.height-200 {
+  height: calc(var(--basis-length) * 40);
+}
+
+.height-400 {
+  height: calc(var(--basis-length) * 80);
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  :root {
+    --basis-length: 4px;
+    --basis-font-size: 16px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  :root {
+    --basis-length: 3px;
+    --basis-font-size: 14px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  :root {
+    --basis-length: 3px;
+    --basis-font-size: 14px;
+  }
+  
+  .logo-main-mobile {
+    position: absolute;
+    top: 10%;
+    left: 31%;
+  }
+
+  .header-main-a-1, 
+  .header-main-a-3,
+  .header-main-a-2 {
+    padding-right: 0;
+    margin-right: calc(var(--basis-length) * 8);
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .width-32, .width-34, .width-50, .width-66 {
+    width: 100%;
+  }
+
+  .work-bike-main-bike-1,
+  .work-bike-main-bike-3,
+  .work-bike-main-5 {
+    padding: calc(var(--basis-length) * 50) 0;
+  }
+
+  .height-200 {
+    height: calc(var(--basis-length) * 66.67);
+  }
+  
+  .height-400 {
+    height: calc(var(--basis-length) * 133.34);
+  }
+
+  .about-us-p,
+  .work-p,
+  .social-media-p,
+  .footer-p,
+  .footer-h2 {
+    padding-left: calc(var(--basis-length) * 2);
+    padding-right: calc(var(--basis-length) * 2);
+    box-sizing: border-box;
+  }
+
+  .mail-form {
+    padding: calc(var(--basis-length) * 3) calc(var(--basis-length) * 15) calc(var(--basis-length) * 3) calc(var(--basis-length) * 3);
+  }
+  .footer-a:last-child {
+    margin-right: calc(var(--basis-length) * 2);
+  }
+}
